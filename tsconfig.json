@@ -1,0 +1,16 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/shared" },
+    { "path": "./packages/contracts" },
+    { "path": "./packages/core" },
+    { "path": "./packages/connectors" },
+    { "path": "./packages/storage" },
+    { "path": "./packages/ml" },
+    { "path": "./packages/runtime" },
+    { "path": "./packages/sdk" },
+    { "path": "./apps/api" },
+    { "path": "./apps/worker" }
+  ]
+}
+

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022"],
+    "strict": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "composite": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@pulse/shared": ["packages/shared/src/index.ts"],
+      "@pulse/contracts": ["packages/contracts/src/index.ts"],
+      "@pulse/core": ["packages/core/src/index.ts"],
+      "@pulse/connectors": ["packages/connectors/src/index.ts"],
+      "@pulse/storage": ["packages/storage/src/index.ts"],
+      "@pulse/ml": ["packages/ml/src/index.ts"],
+      "@pulse/runtime": ["packages/runtime/src/index.ts"],
+      "@pulse/sdk": ["packages/sdk/src/index.ts"]
+    }
+  }
+}
+

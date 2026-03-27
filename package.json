@@ -1,0 +1,23 @@
+{
+  "name": "pulse",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "find . -name dist -o -name '*.tsbuildinfo' | xargs rm -rf",
+    "test": "npm run build && node --test tests/*.test.js",
+    "start:api": "node apps/api/dist/index.js",
+    "start:worker": "node apps/worker/dist/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "c8": "^11.0.0"
+  }
+}

@@ -7,6 +7,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
+  basePath: '/pulse',
+  assetPrefix: '/pulse/',
 }
 
 export default nextConfig
